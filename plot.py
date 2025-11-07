@@ -10,7 +10,6 @@ from sys import argv
 # The first argument is always the name of the program; we will remove it
 files = argv[1:]
 
-# hello
 # A list of all the files we wish to process
 # Comment this line to use command line arguments
 files = ['20_deg_C.csv', 'renewables.csv', 'meteorites.csv']
