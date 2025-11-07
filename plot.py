@@ -12,7 +12,7 @@ files = argv[1:]
 
 # A list of all the files we wish to process
 # Comment this line to use command line arguments
-files = ['20_deg_C.csv']
+files = ['20_deg_C.csv', 'renewables.csv', 'meteorites.csv']
 
 i = 0
 # We will create a plot from every csv file passed to the program
@@ -54,8 +54,8 @@ for fname in files:
     ax.plot(x,y,label='Data')
 
     # Add labels to the x and y axes
-    ax.set_xlabel("Time (s)")
-    ax.set_ylabel("Absorbance")
+    ax.set_xlabel("x axis")
+    ax.set_ylabel("y axis")
 
     # Add a title to the graph; by default this is the
     # name of the input data file
